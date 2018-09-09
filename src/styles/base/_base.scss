@@ -1,16 +1,48 @@
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: $m-size;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  text-align: center;
 }
 
-button {
-    cursor: pointer;
+svg {
+  display: block;
+  font: 10px sans-serif;
+  margin: auto;
+  text-align: center;
 }
 
-button:disabled {
-    cursor: default;
+#title{
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+
+#description{
+  padding-bottom: 1.5rem;
+}
+
+#tooltip {
+  background: rgba(255, 255, 200, 0.9);
+  border: 0px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  font: 12px Arial;
+  padding: 10px;
+  pointer-events: none;
+  position: absolute;
+}
+
+#legend{
+  display: block;
+  font-size: 15px;
+  margin: 1rem auto 2rem;
+  padding-bottom: 5px;
+  text-align: center;
+  svg {
+    margin: auto;
+    width: 600px;
+  }
 }

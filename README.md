@@ -10,7 +10,7 @@ The top 100 video games -- grouped by platform -- in terms of how many millions 
 
 * D3
 
-Data
+### Data
 
 * https://cdn.rawgit.com/freeCodeCamp/testable-projects-fcc/a80ce8f9/src/data/tree_map/video-game-sales-data.json
 

@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel public/index.html",
-    "build": "parcel build public/index.html"
+    "build": "parcel build public/index.html --out-dir prod"
   },
   "dependencies": {
     "d3": "4.0.0",

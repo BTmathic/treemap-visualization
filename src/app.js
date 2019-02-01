@@ -29,7 +29,7 @@ const treemap = d3.treemap()
   .size([width, height])
   .paddingInner(1);
 
-d3.json('video-game-sales-data.json', (err, data) => {
+d3.json('https://cdn.rawgit.com/freeCodeCamp/testable-projects-fcc/a80ce8f9/src/data/tree_map/video-game-sales-data.json', (err, data) => {
   if (err) throw err;
 
   const root = d3.hierarchy(data)

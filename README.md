@@ -16,6 +16,6 @@ The top 100 video games -- grouped by platform -- in terms of how many millions 
 
 Build Tools
 
-* Webpack
+* Parcel
 * Yarn
 * Babel
